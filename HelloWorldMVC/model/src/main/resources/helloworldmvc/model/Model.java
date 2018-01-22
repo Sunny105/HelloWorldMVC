@@ -11,7 +11,7 @@ public class Model implements IModel {
 	
 	public String getMessage() throws Throwable {
 		String chemin = Model.class.getResource("message.txt").getFile();
-		InputStream flux=new FileInputStream("test.txt"); 
+		InputStream flux=new FileInputStream(chemin); 
 		InputStreamReader lecture=new InputStreamReader(flux);
 		BufferedReader buff=new BufferedReader(lecture);
 		String ligne;

@@ -17,8 +17,8 @@ repositories {
 }
 
 dependencies {
-	
+	testCompile 'org.testng:testng:+'
 }
 
-group=helloworldmvc.model
+group='helloworldmvc.model'
 

@@ -20,5 +20,5 @@ dependencies {
 	
 }
 
-group=helloworldmvc.view
+group='helloworldmvc.view'
 

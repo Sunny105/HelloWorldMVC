@@ -17,11 +17,11 @@ repositories {
 }
 
 dependencies {
-	
+compile project(':model')  
+compile project(':view')	
 }
 
-compile project(':model')  
-compile project(':view')
 
-group=helloworldmvc.controller
+
+group='helloworldmvc.controller'
 
